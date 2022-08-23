@@ -34,13 +34,13 @@
 
         echo $text;
 
-        $splittedtext = explode('.', $text);
-        var_dump($splittedtext);
+        $splittedText = explode('.', $text);
+        var_dump($splittedText);
    
    ?>
-    <?php for ($i = 0; $i < count($splittedtext); $i++){ ?>
+    <?php for ($i = 0; $i < count($splittedText); $i++){ ?>
         <p>
-            <?php echo $splittedtext[$i]; ?>
+            <?php echo $splittedText[$i]; ?>
         </p>
     <?php } ?>
 </body>
